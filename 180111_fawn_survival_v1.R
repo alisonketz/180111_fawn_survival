@@ -485,8 +485,8 @@ cat("
         UCH0[t]<-exp(llambda.out[t])
         CH0[t]<-sum(UCH0[1:t])
         S0[t]<-exp(-CH0[t])
-
     }
+
 }
     ",fill = TRUE)
 sink()
